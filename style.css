@@ -555,11 +555,6 @@ input {
     height: 35px;
   }
 }
-@media (max-width: 769px) {
-  .contact-spacing {
-    height: 35px;
-  }
-}
 
 .echo {
   user-select: none;
