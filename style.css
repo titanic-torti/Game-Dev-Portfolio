@@ -446,6 +446,12 @@ h4 {
   padding-right: 60px;
 }
 
+@media (max-width: 769px) {
+  .about-text {
+    padding-right: 0;
+  }
+}
+
 .silly {
   display: flex;
   flex-direction: column;
@@ -544,8 +550,13 @@ input {
     height: 35px;
   }
 }
-@media (max-width: 769px) {
+@media (max-width: 500px) {
   .phone-spacing {
+    height: 35px;
+  }
+}
+@media (max-width: 769px) {
+  .contact-spacing {
     height: 35px;
   }
 }
@@ -580,6 +591,20 @@ input {
   z-index: -100;
 }
 
+.first-lap {
+  flex: 8;
+}
+
 .lap {
   background-color: var(--custom-light-yellow);
+}
+
+@media (max-width: 769px) {
+  .background-wave {
+    width: 55%;
+  }
+
+  .first-lap {
+    flex: 11;
+  }
 }
