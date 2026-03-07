@@ -128,7 +128,7 @@ h4 {
 .face {
   position: relative;
   background-color: var(--custom-black);
-  width: 300px;
+  width: 130%;
   height: auto;
   border-radius: 70%;
   z-index: 200;
@@ -193,24 +193,34 @@ h4 {
   row-gap: 20px;
 }
 
-.back-panel-flex {
-  display: flex;
-  top: 3.5%;
-  left: -0.1%;
-  height: 93%;
-  width: 42%;
-  z-index: -2;
-  gap: 12px;
+@media (max-width: 769px) {
+  .portfolio-grid {
+    height: 80%;
+    grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 
-.back-panel {
-  background-color: var(--custom-green);
-  flex: 15;
-}
+@media (min-width: 769px) {
+  .back-panel-flex {
+    display: flex;
+    top: 3.5%;
+    left: -0.1%;
+    height: 93%;
+    width: 42%;
+    z-index: -2;
+    gap: 12px;
+  }
 
-.back-panel-support {
-  background-color: var(--custom-green);
-  flex: 1;
+  .back-panel {
+    background-color: var(--custom-green);
+    flex: 15;
+  }
+
+  .back-panel-support {
+    background-color: var(--custom-green);
+    flex: 1;
+  }
 }
 
 /* ------------------------------------------------------ */
