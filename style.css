@@ -26,6 +26,7 @@ li {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  z-index: 1000;
 }
 
 .p-bolded {
@@ -42,6 +43,7 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 720;
   text-transform: uppercase;
+  z-index: 1000;
 }
 
 h3 {
@@ -51,6 +53,7 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 750;
   font-style: normal;
+  z-index: 1000;
 }
 
 /* <weight>: Use a value from 400 to 900 */
@@ -83,6 +86,7 @@ h4 {
 
 .floater {
   position: absolute;
+  z-index: -5;
 }
 
 .solid-filled {
@@ -121,6 +125,7 @@ h4 {
   left: -80px;
   width: 250px;
   height: 140px;
+  z-index: 10;
 }
 
 .after {
@@ -193,7 +198,7 @@ h4 {
 .resume-title {
   top: -50px;
   padding-bottom: 21.5px;
-  padding-left: 60%;
+  margin-left: 60%;
   z-index: 10;
 }
 
@@ -217,13 +222,14 @@ h4 {
 
 .resume-echo {
   user-select: none;
+  z-index: 5;
   top: -32.5px;
-  opacity: 30%;
+  opacity: 20%;
 }
 
 .resume-echo2 {
   top: -10px;
-  opacity: 30%;
+  opacity: 20%;
 }
 
 .resume-grid {
@@ -417,13 +423,14 @@ input {
 
 .echo {
   user-select: none;
+  z-index: 10;
   top: 17px;
-  opacity: 30%;
+  opacity: 20%;
 }
 
 .echo2 {
   top: 38px;
-  opacity: 30%;
+  opacity: 20%;
 }
 
 /* ------------------------------------------------------ */
