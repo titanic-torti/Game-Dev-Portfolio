@@ -454,6 +454,10 @@ input {
   opacity: 20%;
 }
 
+.right-text-margin {
+  margin-right: 30px;
+}
+
 /* ------------------------------------------------------ */
 
 /* Background wave */
