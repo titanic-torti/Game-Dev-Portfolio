@@ -541,6 +541,13 @@ input {
   background-color: transparent;
 }
 
+.play-button {
+  color: gray;
+  width: 28px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
 .email-button {
   color: var(--custom-black);
   margin-top: 2%;
