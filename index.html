@@ -278,14 +278,28 @@
 
         <div class="card-and-text">
           <div style="flex: 1">
-            <div class="contact-card">
-              <p>Full Name</p>
-              <input type="text" autocomplete="name" name="name" />
-              <p>Email</p>
-              <input type="text" autocomplete="email" name="email" />
-              <p>Message</p>
-              <input type="text" name="message" />
-            </div>
+            <form
+              action="https://docs.google.com/forms/d/e/1FAIpQLSdHFel8Ulowz-3JgHrefmPHegM1TTbX2HdcgTBW7pb0sQ8h6Q/formResponse"
+              method="POST"
+            >
+              <div class="contact-card">
+                <p>Full Name</p>
+                <input
+                  type="text"
+                  autocomplete="name"
+                  name="entry.1171881230"
+                />
+                <p>Email</p>
+                <input
+                  type="text"
+                  autocomplete="email"
+                  name="entry.718404228"
+                />
+                <p>Message</p>
+                <input type="text" name="entry.912444722" />
+              </div>
+              <button class="email-button" type="submit">Send</button>
+            </form>
           </div>
           <div style="flex: 1">
             <p class="contact-message">

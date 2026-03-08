@@ -541,6 +541,24 @@ input {
   background-color: transparent;
 }
 
+.email-button {
+  color: var(--custom-black);
+  margin-top: 2%;
+  margin-left: 21.5%;
+
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 1000;
+}
+
+@media (max-width: 769px) {
+  .email-button {
+    margin-left: 3%;
+  }
+}
+
 .vert-center {
   display: flex;
   flex-direction: vertical;
