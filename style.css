@@ -548,6 +548,10 @@ input {
   padding-bottom: 5px;
 }
 
+.play-button:hover {
+  fill: var(--custom-red);
+}
+
 .email-button {
   color: var(--custom-black);
   margin-top: 2%;
@@ -558,6 +562,11 @@ input {
   font-weight: 400;
   font-style: normal;
   z-index: 1000;
+}
+
+.email-button:hover {
+  color: var(--custom-red);
+  border: 2px solid var(--custom-red);
 }
 
 @media (max-width: 769px) {
