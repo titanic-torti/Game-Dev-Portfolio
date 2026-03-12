@@ -426,11 +426,21 @@ h4 {
 /* ------------------------------------------------------ */
 
 /* About */
-
 .two-column {
   display: flex;
   width: 100%;
   gap: 15px;
+}
+
+@media (max-width: 769px) {
+  .column-mobile-flip {
+    flex-direction: column-reverse;
+  }
+
+  .about-text {
+    background-color: var(--custom-light-yellow);
+    padding: 20px;
+  }
 }
 
 .column {
@@ -439,18 +449,6 @@ h4 {
 
 .description {
   flex: 8;
-}
-
-.about-text {
-  margin-left: 15px;
-  margin-top: 15px;
-  padding-right: 60px;
-}
-
-@media (max-width: 769px) {
-  .about-text {
-    padding-right: 0;
-  }
 }
 
 .silly {
@@ -510,12 +508,8 @@ h4 {
 
   .contact-message {
     background-color: var(--custom-light-yellow);
-    padding-top: 0;
-    text-align: left;
-  }
-
-  .contact-message {
     margin-right: 0;
+    text-align: left;
   }
 }
 
@@ -610,39 +604,23 @@ input {
 /* ------------------------------------------------------ */
 
 /* Background wave */
-.background-wave {
-  display: flex;
-  flex-direction: column;
-  top: -865px;
-  left: 50.65%;
-  width: 44.5%;
-  height: 1050px;
-  gap: 10px;
-  z-index: -100;
-}
-
-.first-lap {
-  flex: 8;
-}
-
-.lap {
-  background-color: var(--custom-light-yellow);
-}
-
-@media (max-width: 769px) {
+@media (min-width: 769px) {
   .background-wave {
-    width: 55%;
+    display: flex;
+    flex-direction: column;
+    top: -865px;
+    left: 50.65%;
+    width: 44.5%;
+    height: 1050px;
+    gap: 10px;
+    z-index: -100;
   }
 
   .first-lap {
-    flex: 11;
+    flex: 8;
   }
 
-  .last-lap {
-    background-color: var(--custom-white);
-  }
-
-  .surprise-lap {
+  .lap {
     background-color: var(--custom-light-yellow);
   }
 }
