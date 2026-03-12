@@ -245,6 +245,7 @@ h4 {
 
 @media (max-width: 769px) {
   .hero.hori-center {
+    margin-top: 15%;
     flex-direction: column;
     height: 95%;
     top: 50%;
