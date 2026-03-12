@@ -15,6 +15,9 @@ color scheme:
   --custom-green: #519259;
   --custom-black: #000000;
   --custom-white: #fefefe;
+
+  --spacing-row-gap: 15px;
+  --spacing-padding: 20px;
 }
 
 body {
@@ -293,7 +296,7 @@ h4 {
   grid-template-rows: 0.5fr 0.5fr 0.5fr;
   grid-template-columns: 4fr 6fr;
   column-gap: 110px;
-  row-gap: 20px;
+  row-gap: var(--spacing-row-gap);
 }
 
 @media (max-width: 769px) {
@@ -428,7 +431,7 @@ h4 {
 .two-column {
   display: flex;
   width: 100%;
-  gap: 15px;
+  gap: var(--spacing-row-gap);
 }
 
 @media (min-width: 769px) {
@@ -444,7 +447,7 @@ h4 {
 
   .about-text {
     background-color: var(--custom-light-yellow);
-    padding: 20px;
+    padding: var(--spacing-padding);
   }
 }
 
@@ -460,7 +463,7 @@ h4 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  gap: 20px;
+  gap: var(--spacing-row-gap);
 }
 
 .silly-item {
@@ -521,7 +524,7 @@ h4 {
 
 .contact-card {
   margin-left: 18%;
-  padding: 20px;
+  padding: var(--spacing-padding);
   width: 100%;
   height: 75%;
   border: 3px solid var(--custom-green);
@@ -533,7 +536,7 @@ h4 {
 
 .contact-message {
   text-align: right;
-  padding: 20px;
+  padding: var(--spacing-padding);
   margin-right: 50px;
 }
 
