@@ -700,10 +700,10 @@ input {
   .background-wave {
     display: flex;
     flex-direction: column;
-    top: -865px;
-    left: 50.65%;
-    width: 44.5%;
-    height: 1050px;
+    top: -10px;
+    left: -5%;
+    width: 110%;
+    height: 1150px;
     gap: 10px;
     z-index: -100;
   }
