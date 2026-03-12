@@ -410,8 +410,8 @@ h4 {
     grid-template-columns: 1fr;
   }
 
-  .empty-space-item {
-    order: -1;
+  .one-column-bottom {
+    order: 5;
   }
 
   .extra-space {
