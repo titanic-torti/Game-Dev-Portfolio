@@ -21,6 +21,12 @@ body {
   background-color: var(--custom-white);
 }
 
+@media (max-width: 769px) {
+  .one-column-bottom {
+    order: 5;
+  }
+}
+
 /* ------------------------------------------------------ */
 /* section dividers */
 
@@ -399,10 +405,6 @@ h4 {
   .resume-grid {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
-  }
-
-  .one-column-bottom {
-    order: 5;
   }
 
   .extra-space {
