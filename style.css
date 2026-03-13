@@ -560,7 +560,7 @@ h4 {
 .contact-card {
   margin-left: 18%;
   padding: var(--spacing-padding);
-  width: 100%;
+  width: calc(100% + 30px);
   height: 75%;
   border: 3px solid var(--custom-green);
 }
@@ -576,6 +576,7 @@ h4 {
   gap: 0.5rem 1rem;
   padding: var(--spacing-padding);
   margin-right: 50px;
+  margin-bottom: 30px;
 }
 
 .contact-links p {
@@ -604,6 +605,7 @@ h4 {
   .contact-card {
     margin-left: 0;
     height: 88%;
+    width: 100%;
   }
 
   .contact-links {
