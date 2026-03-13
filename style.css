@@ -569,10 +569,30 @@ h4 {
   margin-bottom: 0;
 }
 
-.contact-message {
-  text-align: right;
+.contact-links {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.5rem 1rem;
   padding: var(--spacing-padding);
   margin-right: 50px;
+}
+
+.contact-links p {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+.contact-icon {
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.contact-icon:hover {
+  color: var(--custom-red);
 }
 
 @media (max-width: 769px) {
@@ -586,9 +606,18 @@ h4 {
     height: 88%;
   }
 
-  .contact-message {
+  .contact-links {
     background-color: var(--custom-light-yellow);
     margin-right: 0;
+    direction: rtl;
+  }
+
+  .contact-links p,
+  .contact-links a {
+    direction: ltr;
+  }
+
+  .contact-links p {
     text-align: left;
   }
 }
