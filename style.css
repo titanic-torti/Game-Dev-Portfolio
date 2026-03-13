@@ -44,9 +44,21 @@ body {
   height: 80px;
 }
 
+@keyframes section-header-enter {
+  from {
+    color: var(--custom-orange);
+  }
+  to {
+    color: var(--custom-green);
+  }
+}
+
 .header-title {
   padding-bottom: 21.5px;
   padding-left: 21.5px;
+  animation: section-header-enter linear both;
+  animation-timeline: view();
+  animation-range: cover 40% cover 60%;
   z-index: 500;
 }
 
@@ -63,6 +75,22 @@ body {
   z-index: 10;
   top: 17px;
   opacity: 20%;
+  animation: echo-enter linear both;
+  animation-timeline: view();
+  animation-range: cover 40% cover 60%;
+}
+
+@keyframes echo-enter {
+  from {
+    color: var(--custom-orange);
+    top: 17px;
+    opacity: 20%;
+  }
+  to {
+    color: var(--custom-green);
+    top: 22px;
+    opacity: 12%;
+  }
 }
 
 .echo2 {
