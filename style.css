@@ -210,6 +210,11 @@ h4 {
   font-style: normal;
 }
 
+.text-emphasis {
+  color: var(--custom-green);
+  font-weight: 500;
+}
+
 /* ------------------------------------------------------ */
 
 /* Main Layout */
