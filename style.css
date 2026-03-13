@@ -20,6 +20,10 @@ color scheme:
   --spacing-padding: 20px;
 }
 
+.link-secondary {
+  color: var(--custom-green) !important;
+}
+
 body {
   background-color: var(--custom-white);
 }
