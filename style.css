@@ -221,6 +221,7 @@ h4 {
 
 .hero-text {
   padding-top: 30px;
+  padding-left: var(--spacing-padding);
   width: 430px;
   height: 80%;
 }
@@ -254,7 +255,7 @@ h4 {
 
   .hero-text {
     padding-top: 0;
-    width: 85%;
+    width: auto;
   }
 
   .face {
@@ -607,7 +608,6 @@ input {
 
 .vert-center {
   display: flex;
-  flex-direction: vertical;
   align-items: center;
 }
 
