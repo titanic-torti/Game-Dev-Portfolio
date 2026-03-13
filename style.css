@@ -313,7 +313,6 @@ h4 {
 
 .portfolio-grid {
   display: grid;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr;
   grid-template-columns: 5fr 6fr;
   column-gap: 120px;
   row-gap: var(--spacing-row-gap);
@@ -321,7 +320,6 @@ h4 {
 
 @media (max-width: 769px) {
   .portfolio-grid {
-    grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr;
     grid-template-columns: 1fr;
   }
 }
@@ -353,10 +351,9 @@ h4 {
 /* Resume */
 .resume-grid {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   column-gap: 45px;
-  row-gap: 40px;
+  row-gap: var(--spacing-row-gap);
 }
 
 .resume-decor-box-1 {
