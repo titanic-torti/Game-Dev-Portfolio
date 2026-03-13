@@ -314,7 +314,7 @@ h4 {
 .portfolio-grid {
   display: grid;
   grid-template-columns: 5fr 6fr;
-  column-gap: 120px;
+  column-gap: 116px;
   row-gap: var(--spacing-row-gap);
 }
 
@@ -422,8 +422,7 @@ h4 {
 /* About */
 .two-column {
   display: flex;
-  width: 100%;
-  gap: var(--spacing-row-gap);
+  gap: 32px;
 }
 
 @media (min-width: 769px) {
