@@ -431,7 +431,7 @@ h4 {
 
 @media (min-width: 769px) {
   .about-text {
-    margin-right: 50px;
+    margin-right: 40px;
   }
 }
 
@@ -513,7 +513,6 @@ h4 {
   padding: 20px 28px;
   font-weight: 600;
   line-height: 1.6;
-  margin-bottom: 16px;
 }
 
 .quote-source {
@@ -525,19 +524,19 @@ h4 {
 
 .quote-mark {
   position: absolute;
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: auto;
   color: var(--custom-orange);
 }
 
 .quote-open {
-  top: -16px;
-  left: -16px;
+  top: -44px;
+  left: -52px;
 }
 
 .quote-close {
-  bottom: -16px;
-  right: -16px;
+  bottom: -44px;
+  right: -52px;
 }
 
 .dream-box {
@@ -761,5 +760,15 @@ input {
 
   .lap {
     background-color: var(--custom-light-yellow);
+  }
+
+  .about-lap {
+    flex: 13;
+  }
+
+  @media (max-width: 1020px) {
+    .about-lap {
+      flex: 18;
+    }
   }
 }
