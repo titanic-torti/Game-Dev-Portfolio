@@ -507,6 +507,45 @@ h4 {
   }
 }
 
+.quote-box {
+  background-color: var(--custom-green);
+  color: var(--custom-white);
+  padding: 20px 28px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.quote-source {
+  display: block;
+  text-align: right;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.quote-mark {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  color: var(--custom-orange);
+}
+
+.quote-open {
+  top: -16px;
+  left: -16px;
+}
+
+.quote-close {
+  bottom: -16px;
+  right: -16px;
+}
+
+.dream-box {
+  background-color: var(--custom-light-yellow);
+  padding: 20px 28px;
+  margin-top: 8px;
+}
+
 /* ------------------------------------------------------ */
 /* Contact */
 
