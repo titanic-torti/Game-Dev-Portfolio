@@ -429,6 +429,21 @@ h4 {
   gap: 32px;
 }
 
+.progressions-grid {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 4px 32px;
+  align-items: start;
+}
+
+.progressions-grid p {
+  margin: 0;
+}
+
+.progression-num {
+  text-align: right;
+}
+
 @media (min-width: 769px) {
   .about-text {
     margin-right: 40px;
