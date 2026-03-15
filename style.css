@@ -711,6 +711,22 @@ input {
   margin-right: 40px;
 }
 
+.resume-description {
+  margin-bottom: 0;
+}
+
+.resume-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.resume-meta li {
+  display: inline;
+}
+
 /* ------------------------------------------------------ */
 /* Back to top */
 
