@@ -210,9 +210,14 @@ h4 {
   font-style: normal;
 }
 
-.text-emphasis {
+.career-emphasis {
   color: var(--custom-green);
-  font-weight: 500;
+  font-weight: 700;
+}
+
+.text-emphasis {
+  color: var(--custom-black);
+  font-weight: 700;
 }
 
 /* ------------------------------------------------------ */
