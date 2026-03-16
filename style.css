@@ -701,6 +701,23 @@ input {
   width: 100%;
 }
 
+.img-hover-container {
+  position: relative;
+  width: 100%;
+}
+
+.img-hover-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.img-hover-container:hover .img-hover-gif {
+  opacity: 1;
+}
+
 @media (min-width: 769px) {
   .img-fit {
     height: 100%;
