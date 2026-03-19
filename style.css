@@ -236,22 +236,32 @@ h4 {
 
 /* Hero */
 .hero {
-  width: 100%;
   background-color: var(--custom-light-yellow);
 }
 
 .face {
-  position: relative;
-  background-color: var(--custom-black);
+  position: absolute;
   width: 130%;
   border-radius: 70%;
   z-index: 200;
 }
 
+.face-anchor {
+  position: relative;
+  width: 200px;
+  height: 241px;
+}
+
+@media (min-width: 769px) {
+  .face-anchor {
+    margin-left: 5%;
+  }
+}
+
 .hero-text {
+  flex: 1;
   padding-top: 30px;
   padding-left: var(--spacing-padding);
-  width: 430px;
 }
 
 .before {
@@ -695,10 +705,6 @@ input {
   justify-content: center;
   align-items: center;
   gap: 90px;
-}
-
-.anchor {
-  position: relative;
 }
 
 .img-fit {
